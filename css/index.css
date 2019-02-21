@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: 600;
 }
 
 p {
@@ -95,6 +96,11 @@ header {
     border-bottom: 1px dashed black;
 }
 
+.about-top-content {
+    border-bottom: 1px dashed black;
+    padding: 15px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -104,6 +110,35 @@ header {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 45%;
+    margin: 20px;
+    border-bottom: 2px dotted lightgray
+}
+
+.row2 {
+    border-bottom: 1px dashed black;
+}
+
+.tile img {
+    margin: 20px 0;
+}
+
+button {
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    height: 35px;
+    width: 125px;
+    margin: 20px 0;
+    font-weight: 600;
 }
 
 .middle-content h2 {
@@ -163,6 +198,10 @@ header {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.about-bottom-content {
+    padding: 20px;
 }
 
 .bottom-content .text-container {
