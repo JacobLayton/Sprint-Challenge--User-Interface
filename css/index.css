@@ -165,33 +165,63 @@ button {
 
 #box1 {
     background: teal;
+    position: relative;
+    animation-name: box1;
+    animation-duration: 4s;
 }
 #box2 {
     background: gold;
+    position: relative;
+    animation-name: box2;
+    animation-duration: 4s;
 }
 #box3 {
     background: cadetblue;
+    position: relative;
+    animation-name: box3;
+    animation-duration: 4s;
 }
 #box4 {
     background: coral;
+    position: relative;
+    animation-name: box4;
+    animation-duration: 4s;
 }
 #box5 {
     background: crimson;
+    position: relative;
+    animation-name: box5;
+    animation-duration: 4s;
 }
 #box6 {
     background: forestgreen;
+    position: relative;
+    animation-name: box6;
+    animation-duration: 4s;
 }
 #box7 {
     background: darkorchid;
+    position: relative;
+    animation-name: box7;
+    animation-duration: 4s;
 }
 #box8 {
     background: hotpink;
+    position: relative;
+    animation-name: box8;
+    animation-duration: 4s;
 }
 #box9 {
     background: indigo;
+    position: relative;
+    animation-name: box9;
+    animation-duration: 4s;
 }
 #box10 {
     background: dodgerblue;
+    position: relative;
+    animation-name: box10;
+    animation-duration: 4s;
 }
 
 .bottom-content {
@@ -230,3 +260,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*------------------------------- CSS animation ------------------------*/
+
+@keyframes box1 {
+    0% {background: teal;left:0px;}
+    100% {background: gold; left:157px;}
+}
+
+@keyframes box2 {
+    0% {background: gold;left:0px;}
+    100% {background: cadetblue; left:157px;}
+}
+
+@keyframes box3 {
+    0% {background: cadetblue;left:0px;}
+    100% {background: coral; left:157px;}
+}
+
+@keyframes box4 {
+    0% {background: coral;left:0px;}
+    100% {background: crimson; left:157px;}
+}
+
+@keyframes box5 {
+    0% {background: crimson;top:0px;}
+    100% {background: dodgerblue; top:140px;}
+}
+
+@keyframes box10 {
+    0% {background: dodgerblue;right:0px;}
+    100% {background: indigo; right:157px;}
+}
+
+@keyframes box9 {
+    0% {background: indigo;right:0px;}
+    100% {background: hotpink; right:157px;}
+} 
+
+@keyframes box8 {
+    0% {background: hotpink;right:0px;}
+    100% {background: darkorchid; right:157px;}
+} 
+
+@keyframes box7 {
+    0% {background: darkorchid;right:0px;}
+    100% {background: forestgreen; right:157px;}
+} 
+
+@keyframes box6 {
+    0% {background: forestgreen;bottom:0px;}
+    100% {background: teal; bottom:140px;}
+} 
